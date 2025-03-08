@@ -36,6 +36,12 @@ label start:
             $ _preferences.language = None
         "Hindi":
             $ _preferences.language = "hi"
+        "Kannada":
+            $ _preferences.language = "kan"
+        "Telugu":
+            $ _preferences.language = "tel"
+        "Tamil":
+            $ _preferences.language = "tam"
 
     # Ask user to enter their name, ensure it's not empty
     $ username = ""
